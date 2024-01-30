@@ -13,4 +13,4 @@ resource "aws_instance" "demo_ec2" {
     }
 }
 
-provider "azurem" {}
+# provider "azurem" {}
