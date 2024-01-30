@@ -9,7 +9,7 @@ terraform {
 
 provider "github" {
   # Configuration options
-  token = "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"
+  token = "input_github_token"
 }
 
 resource "github_repository" "Terraform_class_with_Zeal_Vora" {
