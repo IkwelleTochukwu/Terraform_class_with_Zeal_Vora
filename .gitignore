@@ -1,0 +1,33 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+terraform.tfvars
+.terraform/
+
+# Ignore local state files
+**/.terraform/*
+
+# Ignore .tfvars files that are intended to be kept private
+*.secret.tfvars
+
+# Ignore override files as they are usually used to override resources locally and should not be committed
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+cli.tfvars
+
+# Ignore crash log files
+crash.log
+
+# Ignore .terraformrc since it might contain sensitive information
+.terraformrc
+
+# Ignore .tfstate files with sensitive information
+*.tfstate.*
+
+# Ignore any .git directories
+.git/
